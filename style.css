@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;/*configurar como grid*/
+    grid-template-columns:350px 800px 350px;
+    /*repete 3 colunas do mesmo tamanho*/
+    gap: 10px;
+    /*gap e o wspaçamento entre itens*/
+    grid-template-rows: 100px 200px;
+}
+
+.item{
+    background-color: darkblue;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    
+    
+}
